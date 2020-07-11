@@ -1,0 +1,19 @@
+
+app:
+  hel: uuuuuuu
+
+server:
+  port: 8082
+
+logging:
+  level:
+    root: fatal
+
+spring:
+  application:
+    name: basis
+
+eureka:
+  client:
+    service-Url:
+      defaultZone: http://localhost:8081/eureka
